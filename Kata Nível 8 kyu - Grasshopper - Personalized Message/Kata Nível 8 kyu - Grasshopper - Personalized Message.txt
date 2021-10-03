@@ -1,0 +1,6 @@
+function Hello(person)
+{
+let result = 'Hello guest'
+if(person == 'owner'){result = 'Hello boss'}
+return result;
+}
